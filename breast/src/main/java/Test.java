@@ -17,6 +17,7 @@ public class Test {
 		readSb.append(read("E:\\implants\\SiltexRoundHighProfile.txt", "H"));
 		readSb.append(read("E:\\implants\\SiltexRoundUltraHighProfile.txt", "UH"));
 
+		
 		write(readSb.toString(), "E:\\implants\\SiltexRound.txt");
 	}
 
