@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank A4" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e08f29fd-23b1-49a5-a899-287537b9a806">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="patientName" class="java.lang.String"/>
+	<parameter name="patientAge" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="304" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="3c57658b-1807-42d0-bbef-a7326e1c212b" x="0" y="10" width="70" height="20"/>
+				<textElement/>
+				<text><![CDATA[Hasta Adi :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="6b98f419-5eb6-4a26-9622-1e79cd6f9efa" x="80" y="10" width="190" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{patientName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c5b6832f-c0d6-4397-ae85-707d7eed5fe0" x="0" y="40" width="70" height="20"/>
+				<textElement/>
+				<text><![CDATA[Hasta Yasi :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="84961079-a921-42f8-9b62-ba6a31b862a3" x="80" y="40" width="190" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{patientAge}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

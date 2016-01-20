@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sun Feb 24 00:50:48 EET 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-013d-0940-67a8-000005206b28 
+on database directory C:\Users\DELL\Documents\workspace-sts-3.1.0.RELEASE\breast\derbyDB  with class loader sun.misc.Launcher$AppClassLoader@13af9d1c 
+Loaded from file:/C:/mvn_depo/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_02-b13
+user.dir=C:\Users\DELL\Documents\workspace-sts-3.1.0.RELEASE\breast
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
